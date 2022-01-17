@@ -1,11 +1,11 @@
-import ImageCarousel from './ImageCarousel'
-
+import ImageCarousel from './ImageCarousel';
+import ImageCarouselData from './ImageCarouselData';
 function App() {
-  return (
-    <div>
-     <ImageCarousel />
-    </div>
-  );
+	return (
+		<div>
+			<ImageCarousel SlideData={ImageCarouselData} />
+		</div>
+	);
 }
 
 export default App;

@@ -35,3 +35,9 @@
 .carouselBackBtn {
 	left: 1rem;
 }
+.slideContainer {
+	display: none;
+}
+.active {
+	display: block;
+}
